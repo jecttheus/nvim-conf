@@ -20,7 +20,7 @@ I am using the [VimR](https://github.com/qvacua/vimr) on MacOS, it is very neat.
 
 I prefer to using [wbthomason/packer.nvim](https://github.com/wbthomason/packer.nvim).
 
-i. Run command from terminal:
+- Run command from terminal:
 
 ```
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\
