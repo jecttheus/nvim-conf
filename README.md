@@ -10,8 +10,9 @@ I am using the [VimR](https://github.com/qvacua/vimr) on MacOS, it is very neat.
 
 ## Configure NeoVim (VimR)
 
-i. Create a conf file: `.config/nvim/init.lua`.
-i. See the content of the init.lua from this repo.
+- Create a conf file: `.config/nvim/init.lua`.
+
+- See the content of the init.lua from this repo.
 
 ### Install NeoVim Plugin Manager
 
@@ -26,7 +27,7 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
 
-i. Packer Plugin Commands (Run in NeoVim/VimR):
+- Packer Plugin Commands (Run in NeoVim/VimR):
 
 ```
 :PackerInstall
@@ -35,9 +36,8 @@ i. Packer Plugin Commands (Run in NeoVim/VimR):
 :PackerClean
 ```
 
-i. NOTE:
-ii. Must include the `wbthomason/packer.nvim` itself as plugin via `use 'wbthomason/packer.nvim'` in `init.lua`,
+- NOTE:
+  -  Must include the `wbthomason/packer.nvim` itself as plugin via `use 'wbthomason/packer.nvim'` in `init.lua`,
 so that the Packer won't try to remove itself.
-
 
 
